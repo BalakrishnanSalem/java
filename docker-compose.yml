@@ -1,0 +1,9 @@
+version: '3'
+services:
+  api-service:
+    build:
+      context: D:/Bala/02.Pratice/SpringBoot/sampleproject
+      dockerfile: /src/main/docker/Dockerfile
+    image: bala2205/bala
+    ports:
+      - 8080:8080
